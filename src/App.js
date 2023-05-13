@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { Children } from 'react'
 
-function App() {
+function App({children}) {
   return (
     <div>
-      <h1>This is App section</h1>
+      <h1>{children}</h1>
+      <h2>Hello</h2>
       
     </div>
   )

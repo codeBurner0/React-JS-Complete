@@ -23,3 +23,22 @@
 12. What is the importanx=ce of the gitignore file?
         -It ignore all the files anf folder which you mentioned in it at the time of commit 
          the files.
+13. Why we have not to push node modules to github?
+        -because they have heavy size(1gb or greater) but you can simply download the node 
+         modules by simply running a command called npm install.
+
+14. What is component?
+        - a piece of code that can be reuse
+
+15. Types of components?
+        -mainly two types of components
+          -Functional component
+          -Class component
+
+16. Difference between class and functional components?
+17. What is react fragment?
+18. Types of export and import?
+        -two types 
+          -named export and named import( use {} to import and export)
+          -default import and export
+19. render( method ) in class component
