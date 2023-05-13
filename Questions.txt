@@ -1,0 +1,7 @@
+1. What is CDN?
+    -If you want to run react without installation, then you have to add three scripts(react, react dom, babel)
+2. What is React Dom?
+3. What is React?
+4. What is Render?
+
+   
