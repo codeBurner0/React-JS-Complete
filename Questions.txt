@@ -1,7 +1,25 @@
 1. What is CDN?
-    -If you want to run react without installation, then you have to add three scripts(react, react dom, babel)
+        -If you want to run react without installation, then you have to add three 
+         scripts(react, react dom, babel)
+
 2. What is React Dom?
+
 3. What is React?
 4. What is Render?
+5. What is reconsiliation?
+6. Why react is fast?
+7. What is NPM?
+8. Difference Between NPM and NPX?
 
-   
+9. What is Yarn?
+        -alternative of npm
+
+10. What is the need of package.json and package-lock.json file?
+        -package.json has all the details about the project(dependencies, name, author) and 
+         package-lock.json file has the history of all the dependencies(versions)
+
+11. What is the need of reportWebvital file and robot.txt file in public folder ?
+
+12. What is the importanx=ce of the gitignore file?
+        -It ignore all the files anf folder which you mentioned in it at the time of commit 
+         the files.

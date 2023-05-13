@@ -1,0 +1,12 @@
+ React
+    -index.js is the starting point of react
+    -index.html is the starting point for the user
+    
+
+
+
+ Important commands
+    - npx create-react-app appName
+    - npm start : to react
+    - npm init : to initialize app or to create package.json file
+    - npm install : to install all the packages which your project use.
