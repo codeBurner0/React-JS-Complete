@@ -42,3 +42,4 @@
           -named export and named import( use {} to import and export)
           -default import and export
 19. render( method ) in class component
+20. can you use react hooks in class component?
