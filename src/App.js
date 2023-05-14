@@ -2,11 +2,12 @@ import React from 'react'
 // import CounterClass from './Components/CounterClass'
 // import GetInputBoxValue from './Components/GetInputBoxValue'
 // import HideAndShow from './Components/HideAndShow'
-import BasicForm from './Components/BasicForm'
+// import BasicForm from './Components/BasicForm'
+import ConditionalRendering from './Components/ConditionalRendering'
 function App() {
   return (
     <div>
-      <BasicForm/>
+      <ConditionalRendering/>
     </div>
   )
 }
