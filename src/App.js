@@ -7,13 +7,14 @@ import React from 'react'
 // import Render from './Components/Life Cycle Methods/class methods/Render'
 // import ComponentDidMount from './Components/Life Cycle Methods/class methods/ComponentDidMount'
 // import ComponentDidUpdate from './Components/Life Cycle Methods/class methods/ComponentDidUpdate'
-import ShouldComponentUpdate from './Components/Life Cycle Methods/class methods/ShouldComponentUpdate'
-import DidUnmount from './Components/Life Cycle Methods/class methods/DidUnmount'
+// import ShouldComponentUpdate from './Components/Life Cycle Methods/class methods/ShouldComponentUpdate'
+// import DidUnmount from './Components/Life Cycle Methods/class methods/DidUnmount'
+import UseState from './Components/Hooks/UseState'
 
 function App() {
   return (
     <div>
-      <DidUnmount/>
+      <UseState/>
     </div>
   )
 }
