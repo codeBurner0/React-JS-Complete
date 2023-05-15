@@ -4,11 +4,12 @@ import React from 'react'
 // import HideAndShow from './Components/HideAndShow'
 // import BasicForm from './Components/BasicForm'
 // import ConditionalRendering from './Components/ConditionalRendering'
-import Render from './Components/Life Cycle Methods/class methods/Render'
+// import Render from './Components/Life Cycle Methods/class methods/Render'
+import ComponentDidMount from './Components/Life Cycle Methods/class methods/ComponentDidMount'
 function App() {
   return (
     <div>
-      <Render name={"bye"}/>
+      <ComponentDidMount/>
     </div>
   )
 }
