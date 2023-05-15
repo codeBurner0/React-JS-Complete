@@ -8,11 +8,12 @@ import React from 'react'
 // import ComponentDidMount from './Components/Life Cycle Methods/class methods/ComponentDidMount'
 // import ComponentDidUpdate from './Components/Life Cycle Methods/class methods/ComponentDidUpdate'
 import ShouldComponentUpdate from './Components/Life Cycle Methods/class methods/ShouldComponentUpdate'
+import DidUnmount from './Components/Life Cycle Methods/class methods/DidUnmount'
 
 function App() {
   return (
     <div>
-      <ShouldComponentUpdate/>
+      <DidUnmount/>
     </div>
   )
 }
