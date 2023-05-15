@@ -6,11 +6,13 @@ import React from 'react'
 // import ConditionalRendering from './Components/ConditionalRendering'
 // import Render from './Components/Life Cycle Methods/class methods/Render'
 // import ComponentDidMount from './Components/Life Cycle Methods/class methods/ComponentDidMount'
-import ComponentDidUpdate from './Components/Life Cycle Methods/class methods/ComponentDidUpdate'
+// import ComponentDidUpdate from './Components/Life Cycle Methods/class methods/ComponentDidUpdate'
+import ShouldComponentUpdate from './Components/Life Cycle Methods/class methods/ShouldComponentUpdate'
+
 function App() {
   return (
     <div>
-      <ComponentDidUpdate/>
+      <ShouldComponentUpdate/>
     </div>
   )
 }
