@@ -9,12 +9,13 @@ import React from 'react'
 // import ComponentDidUpdate from './Components/Life Cycle Methods/class methods/ComponentDidUpdate'
 // import ShouldComponentUpdate from './Components/Life Cycle Methods/class methods/ShouldComponentUpdate'
 // import DidUnmount from './Components/Life Cycle Methods/class methods/DidUnmount'
-import UseState from './Components/Hooks/UseState'
+// import UseState from './Components/Hooks/UseState'
+import UseEffect from './Components/Hooks/UseEffect'
 
 function App() {
   return (
     <div>
-      <UseState/>
+      <UseEffect/>
     </div>
   )
 }
