@@ -10,12 +10,13 @@ import React from 'react'
 // import ShouldComponentUpdate from './Components/Life Cycle Methods/class methods/ShouldComponentUpdate'
 // import DidUnmount from './Components/Life Cycle Methods/class methods/DidUnmount'
 // import UseState from './Components/Hooks/UseState'
-import UseEffect from './Components/Hooks/UseEffect'
+// import UseEffect from './Components/Hooks/UseEffect'
+import Internal from './Components/Styling In react/Internal'
 
 function App() {
   return (
     <div>
-      <UseEffect/>
+      <Internal/>
     </div>
   )
 }
