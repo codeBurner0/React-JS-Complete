@@ -12,12 +12,13 @@ import React from 'react'
 // import UseState from './Components/Hooks/UseState'
 // import UseEffect from './Components/Hooks/UseEffect'
 // import Internal from './Components/Styling In react/Internal'
-import ExternalCSS from './Components/Styling In react/ExternalCSS'
+// import ExternalCSS from './Components/Styling In react/ExternalCSS'
+import ModuleCSS from './Components/Styling In react/ModuleCSS'
 
 function App() {
   return (
     <div>
-      <ExternalCSS/>
+      <ModuleCSS/>
     </div>
   )
 }
