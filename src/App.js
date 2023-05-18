@@ -13,12 +13,13 @@ import React from 'react'
 // import UseEffect from './Components/Hooks/UseEffect'
 // import Internal from './Components/Styling In react/Internal'
 // import ExternalCSS from './Components/Styling In react/ExternalCSS'
-import ModuleCSS from './Components/Styling In react/ModuleCSS'
+// import ModuleCSS from './Components/Styling In react/ModuleCSS'
+import TableArrayOfObjects from './Components/JS/TableArrayOfObjects'
 
 function App() {
   return (
     <div>
-      <ModuleCSS/>
+      <TableArrayOfObjects/>
     </div>
   )
 }
