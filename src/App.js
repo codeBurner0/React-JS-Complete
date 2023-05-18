@@ -15,12 +15,13 @@ import React from 'react'
 // import ExternalCSS from './Components/Styling In react/ExternalCSS'
 // import ModuleCSS from './Components/Styling In react/ModuleCSS'
 // import TableArrayOfObjects from './Components/JS/TableArrayOfObjects'
-import TableNestedList from './Components/JS/TableNestedList'
+// import TableNestedList from './Components/JS/TableNestedList'
+import Parent from './Components/LiftingStateUp.js/Parent'
 
 function App() {
   return (
     <div>
-      <TableNestedList/>
+      <Parent/>
     </div>
   )
 }
