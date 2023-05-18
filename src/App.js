@@ -14,12 +14,13 @@ import React from 'react'
 // import Internal from './Components/Styling In react/Internal'
 // import ExternalCSS from './Components/Styling In react/ExternalCSS'
 // import ModuleCSS from './Components/Styling In react/ModuleCSS'
-import TableArrayOfObjects from './Components/JS/TableArrayOfObjects'
+// import TableArrayOfObjects from './Components/JS/TableArrayOfObjects'
+import TableNestedList from './Components/JS/TableNestedList'
 
 function App() {
   return (
     <div>
-      <TableArrayOfObjects/>
+      <TableNestedList/>
     </div>
   )
 }
