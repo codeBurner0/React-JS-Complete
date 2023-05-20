@@ -18,12 +18,13 @@ import React from 'react'
 // import TableNestedList from './Components/JS/TableNestedList'
 // import Parent from './Components/LiftingStateUp.js/Parent'
 // import PureComponentFunction from './Components/Pure Component/PureComponentFunction'
-import UseMemo from './Components/Hooks/UseMemo'
+// import UseMemo from './Components/Hooks/UseMemo'
+import UseRefClass from './Components/Hooks/UseRef/UseRefClass'
 
 function App() {
   return (
     <div>
-      <UseMemo/>
+      <UseRefClass/>
     </div>
   )
 }
