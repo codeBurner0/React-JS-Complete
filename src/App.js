@@ -19,12 +19,13 @@ import React from 'react'
 // import Parent from './Components/LiftingStateUp.js/Parent'
 // import PureComponentFunction from './Components/Pure Component/PureComponentFunction'
 // import UseMemo from './Components/Hooks/UseMemo'
-import UseRefClass from './Components/Hooks/UseRef/UseRefClass'
+// import UseRefClass from './Components/Hooks/UseRef/UseRefClass'
+import UseRefFun from './Components/Hooks/UseRef/UseRefFun'
 
 function App() {
   return (
     <div>
-      <UseRefClass/>
+      <UseRefFun/>
     </div>
   )
 }
