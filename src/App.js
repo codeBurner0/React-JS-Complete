@@ -17,12 +17,13 @@ import React from 'react'
 // import TableArrayOfObjects from './Components/JS/TableArrayOfObjects'
 // import TableNestedList from './Components/JS/TableNestedList'
 // import Parent from './Components/LiftingStateUp.js/Parent'
-import PureComponentFunction from './Components/Pure Component/PureComponentFunction'
+// import PureComponentFunction from './Components/Pure Component/PureComponentFunction'
+import UseMemo from './Components/Hooks/UseMemo'
 
 function App() {
   return (
     <div>
-      <PureComponentFunction/>
+      <UseMemo/>
     </div>
   )
 }
