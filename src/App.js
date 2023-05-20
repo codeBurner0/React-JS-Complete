@@ -16,12 +16,13 @@ import React from 'react'
 // import ModuleCSS from './Components/Styling In react/ModuleCSS'
 // import TableArrayOfObjects from './Components/JS/TableArrayOfObjects'
 // import TableNestedList from './Components/JS/TableNestedList'
-import Parent from './Components/LiftingStateUp.js/Parent'
+// import Parent from './Components/LiftingStateUp.js/Parent'
+import PureComponentFunction from './Components/Pure Component/PureComponentFunction'
 
 function App() {
   return (
     <div>
-      <Parent/>
+      <PureComponentFunction/>
     </div>
   )
 }
