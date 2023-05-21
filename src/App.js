@@ -20,12 +20,13 @@ import React from 'react'
 // import PureComponentFunction from './Components/Pure Component/PureComponentFunction'
 // import UseMemo from './Components/Hooks/UseMemo'
 // import UseRefClass from './Components/Hooks/UseRef/UseRefClass'
-import UseRefFun from './Components/Hooks/UseRef/UseRefFun'
+// import UseRefFun from './Components/Hooks/UseRef/UseRefFun'
+import ForwardRef2 from './Components/Hooks/UseRef/ForwardRef/ForwardRef2'
 
 function App() {
   return (
     <div>
-      <UseRefFun/>
+      <ForwardRef2/>
     </div>
   )
 }

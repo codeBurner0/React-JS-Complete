@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 
-function ForwardRef1() {
+function ForwardRef1(props,ref) {
+    
   return (
     <div>
-      
+      <input type="text" ref={ref}/>
     </div>
   )
 }
 
-export default ForwardRef1
+export default forwardRef(ForwardRef1);
