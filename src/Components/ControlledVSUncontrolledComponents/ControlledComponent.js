@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-
 function ControlledComponent() {
     const [val,setVal]=useState("Ankit");
     function Clicker(e){
@@ -12,5 +11,4 @@ function ControlledComponent() {
     </div>
   )
 }
-
 export default ControlledComponent
