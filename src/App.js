@@ -21,12 +21,14 @@ import React from 'react'
 // import UseMemo from './Components/Hooks/UseMemo'
 // import UseRefClass from './Components/Hooks/UseRef/UseRefClass'
 // import UseRefFun from './Components/Hooks/UseRef/UseRefFun'
-import ForwardRef2 from './Components/Hooks/UseRef/ForwardRef/ForwardRef2'
+// import ForwardRef2 from './Components/Hooks/UseRef/ForwardRef/ForwardRef2'
+// import ControlledComponent from './Components/ControlledVSUncontrolledComponents/ControlledComponent'
+import UncontrolledComponents from './Components/ControlledVSUncontrolledComponents/UncontrolledComponents'
 
 function App() {
   return (
     <div>
-      <ForwardRef2/>
+      < UncontrolledComponents/>
     </div>
   )
 }
