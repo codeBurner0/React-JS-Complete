@@ -23,12 +23,13 @@ import React from 'react'
 // import UseRefFun from './Components/Hooks/UseRef/UseRefFun'
 // import ForwardRef2 from './Components/Hooks/UseRef/ForwardRef/ForwardRef2'
 // import ControlledComponent from './Components/ControlledVSUncontrolledComponents/ControlledComponent'
-import UncontrolledComponents from './Components/ControlledVSUncontrolledComponents/UncontrolledComponents'
+// import UncontrolledComponents from './Components/ControlledVSUncontrolledComponents/UncontrolledComponents'
+import UseOfHOF from './Components/HighOrderComponent/UseOfHOF'
 
 function App() {
   return (
     <div>
-      < UncontrolledComponents/>
+      <UseOfHOF/>
     </div>
   )
 }
