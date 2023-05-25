@@ -24,13 +24,14 @@ import React from 'react'
 // import ForwardRef2 from './Components/Hooks/UseRef/ForwardRef/ForwardRef2'
 // import ControlledComponent from './Components/ControlledVSUncontrolledComponents/ControlledComponent'
 // import UncontrolledComponents from './Components/ControlledVSUncontrolledComponents/UncontrolledComponents'
-import UseOfHOF from './Components/HighOrderComponent/UseOfHOF'
-
+// import UseOfHOF from './Components/HighOrderComponent/UseOfHOF'
+import Intro from './Routing/Intro'
+import { BrowserRouter } from 'react-router-dom'
 function App() {
   return (
-    <div>
-      <UseOfHOF/>
-    </div>
+    <BrowserRouter>
+      <Intro/>
+    </BrowserRouter>
   )
 }
 
