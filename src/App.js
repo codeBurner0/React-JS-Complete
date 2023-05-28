@@ -25,13 +25,14 @@ import React from 'react'
 // import ControlledComponent from './Components/ControlledVSUncontrolledComponents/ControlledComponent'
 // import UncontrolledComponents from './Components/ControlledVSUncontrolledComponents/UncontrolledComponents'
 // import UseOfHOF from './Components/HighOrderComponent/UseOfHOF'
-import Intro from './Routing/Intro'
-import { BrowserRouter } from 'react-router-dom'
+// import Intro from './Routing/Intro'
+// import { BrowserRouter } from 'react-router-dom'
+import GetFetchApi from './Api/GetFetchApi'
 function App() {
   return (
-    <BrowserRouter>
-      <Intro/>
-    </BrowserRouter>
+
+    < GetFetchApi/>
+    // <BrowserRouter><Intro/></BrowserRouter>
   )
 }
 
