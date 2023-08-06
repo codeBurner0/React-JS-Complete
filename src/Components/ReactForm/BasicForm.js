@@ -7,7 +7,8 @@ function BasicForm() {
   const [val, setVal] = useState(false);
   function getFormData(e){
     setVal(!val)
-    e.preventDefault();
+    e.preventDefault();//if you click on submit button, then it refreshes the data but if you use  
+    //this then it prevent refreshing the ddta or loading the react page
   }
   return (
     <div>

@@ -27,11 +27,12 @@ import React from 'react'
 // import UseOfHOF from './Components/HighOrderComponent/UseOfHOF'
 // import Intro from './Routing/Intro'
 // import { BrowserRouter } from 'react-router-dom'
-import GetFetchApi from './Api/GetFetchApi'
+// import GetFetchApi from './Api/GetFetchApi'
+import UseRefFun from './Components/Hooks/UseRef/UseRefFun'
 function App() {
   return (
 
-    < GetFetchApi/>
+    < UseRefFun/>
     // <BrowserRouter><Intro/></BrowserRouter>
   )
 }

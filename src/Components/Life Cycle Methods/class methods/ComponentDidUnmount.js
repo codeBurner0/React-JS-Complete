@@ -5,6 +5,7 @@ export default class ComponentDidUnmount extends Component {
         console.log("component will unmount")
     }
   render() {
+
     return (
       <div>
         <h1>Hello</h1>

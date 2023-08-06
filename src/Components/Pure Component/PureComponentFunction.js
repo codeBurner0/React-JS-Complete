@@ -9,7 +9,8 @@ export default class PureComponentFunction extends PureComponent {
     }
     Clicker(){
         this.setState({
-            count:this.state.count+1,
+            count:this.state.count+1,//re-render the component 
+            //count:1 not re render the component
         })
     }
   render() {

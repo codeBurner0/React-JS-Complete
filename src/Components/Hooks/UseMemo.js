@@ -1,13 +1,14 @@
 import React, { useMemo, useState } from 'react'
 
 function UseMemo() {
+
     const [count,setCount]=useState(0);
     const [item,setItem]=useState(1);
     const fun=useMemo(function Clicker(){
         console.log("render")
         return count*10;
-        
-    },[count])
+    },[count]);
+
   return (
     <div>
       <h1>{count}</h1>
@@ -18,5 +19,4 @@ function UseMemo() {
     </div>
   )
 }
-
 export default UseMemo
